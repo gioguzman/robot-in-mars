@@ -9,17 +9,17 @@ class Result {
      * The function is expected to return an INTEGER_ARRAY.
      * The function accepts STRING_ARRAY instruccion as parameter.
      */
-    public static List<Integer> calculateMaxReturn(List<String> instruccion) {
+    public static List<Integer> calculateMaxReturn(List<String> instruction) {
         // Write your code here
 
         int positionX = 0, positionY = 0, actualReturn, majorReturn = 0;
         List<Integer> maxReturn = new ArrayList<>();
 
-        for(String instruccionesList : instruccion){
-            char [] movimientos = instruccionesList.toCharArray();
+        for(String instructionsList : instruction){
+            char [] movementList = instructionsList.toCharArray();
 
-            for (char movimiento : movimientos){
-                switch (movimiento){
+            for (char movement : movementList){
+                switch (movement){
                     case 'R':
                         positionX ++;
                         break;

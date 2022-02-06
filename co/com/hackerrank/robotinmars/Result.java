@@ -1,3 +1,5 @@
+package co.com.hackerrank.robotinmars;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,19 +21,11 @@ class Result {
             char [] movementList = instructionsList.toCharArray();
 
             for (char movement : movementList){
-                switch (movement){
-                    case 'R':
-                        positionX ++;
-                        break;
-                    case 'L':
-                        positionX --;
-                        break;
-                    case 'U':
-                        positionY ++;
-                        break;
-                    case 'D':
-                        positionY --;
-                        break;
+                switch (movement) {
+                    case 'R' -> positionX++;
+                    case 'L' -> positionX--;
+                    case 'U' -> positionY++;
+                    case 'D' -> positionY--;
                 }
                 actualReturn = Math.abs(positionX) + Math.abs(positionY);
                 if (actualReturn > majorReturn){

@@ -1,3 +1,5 @@
+package co.com.hackerrank.robotinmars;
+
 import java.util.ArrayList;
 import java.util.List;
 

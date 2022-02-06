@@ -22,10 +22,10 @@ class Result {
 
             for (char movement : movementList){
                 switch (movement) {
-                    case 'R' -> positionX++;
-                    case 'L' -> positionX--;
-                    case 'U' -> positionY++;
-                    case 'D' -> positionY--;
+                    case 'R' : positionX++; break;
+                    case 'L' : positionX--; break;
+                    case 'U' : positionY++; break;
+                    case 'D' : positionY--; break;
                 }
                 actualReturn = Math.abs(positionX) + Math.abs(positionY);
                 if (actualReturn > majorReturn){

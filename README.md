@@ -49,12 +49,12 @@ existirán N líneas con las cadenas de instrucciones
 > **Ruta:** RUULLLDDDR el robot se moverá como se ve en la imagen
 >
 
-|--|--|--|--|--|
-|6|5|4|3| |
-|7| | |2| |
-|8| |0|1| |
-|9|10| | ||
-| | | | | |
+|     |     |   |   |   |
+|-----|-----|---|---|---|
+| 6   | 5   | 4 | 3 |   |
+| 7   |     |   | 2 |   |
+| 8   |     | 0 | 1 |   |
+| 9   | 10  |   |   |   |
 
 Siguiendo esta ruta, el punto 6 sería el punto más lejano de la base, y necesitaría 4 instrucciones para poder retornar 
 a la base, (RDRD o RRDD o DDRR o DRDR).

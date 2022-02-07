@@ -22,31 +22,32 @@ deberíamos enviar al robot cuando se encuentre en su punto más lejano para que
 Calcule cuál es el número máximo de instrucciones que debería enviarse al robot para que en algún punto del recorrido 
 regrese a la base.
 
-###Function Description
+### Function Description
  
 Complete la función abajo para completar la tarea requerida, la función tendrá una lista de planes a
 ejecutar, evalúe cada uno y retorne una lista con el numero máximo de instrucciones
 
-###Constraints
+### Constraints
 ```
 len(instruccion) <= 10000
 ```
 
-###Input Format For Custom Testing
+### Input Format For Custom Testing
 Primero ingresara un entero N definiendo la cantidad de planes que la NASA quiere evaluar, luego
 existirán N líneas con las cadenas de instrucciones
 
-###Sample Case 0
-####Sample Input For Custom Testing
+### Sample Case 0
+**Sample Input For Custom Testing**
 ```
 1
 RUULLLDDDR
 ```
-####Sample Output
+**Sample Output**
 ```
 4
 ```
-####Explanation
+**Explanation**
+
  **Ruta:** RUULLLDDDR el robot se moverá como se ve en la imagen
 
 
@@ -60,7 +61,7 @@ RUULLLDDDR
 Siguiendo esta ruta, el punto 6 sería el punto más lejano de la base, y necesitaría 4 instrucciones para poder retornar 
 a la base, (RDRD o RRDD o DDRR o DRDR).
 
-###Sample Case 1
+### Sample Case 1
 **Sample Input For Custom Testing**
  ```
  2
@@ -99,7 +100,7 @@ false      No lo logrará
 
 La plantilla convertirá el true en 1 y false en 0 automáticamente
 
-###Function Description
+### Function Description
 
 Complete la función, que recibirá un arreglo de casos a evaluar por el arquitecto. Cada caso se compondrá de la 
 siguiente manera
@@ -109,7 +110,7 @@ siguiente manera
 * caso[i][2] (F) Número de funciones nuevas que puede escribir Ricardo en un día
 * caso[i][3] (R) Número de funciones que borrará Ricardo al finalizar el día
 
-###Constraints
+### Constraints
  ```
 0 < D <= 10000
 1 <= T <= 5000
@@ -117,7 +118,7 @@ siguiente manera
 F <= R <= 5000
  ```
 
-###Input Format For Custom Testing
+### Input Format For Custom Testing
 
 El caso comienza con un numero N que representa el numero de posibilidades que el arquitecto del equipo quiere evaluar.
 
@@ -129,7 +130,7 @@ Posteriormente vienen N Líneas cada una con 4 variables de la siguiente forma
 D T F R
  ```
 
-###Sample Case 0
+### Sample Case 0
 **Sample Input For Custom Testing**
  ```
 1
@@ -158,7 +159,7 @@ Dia 4    60
 Dia 5    110
  ```
 
-###Sample Case 1
+### Sample Case 1
 **Sample Input For Custom Testing**
  ```
 1
@@ -176,8 +177,3 @@ Dia 5    110
 
 En este caso Ricardo no lograría cumplir su cometido, ya que el día 2 tendrá a lo sumo 35 funciones escritas de las 40 
 requeridas por el cliente.
-
-
-
-
-
